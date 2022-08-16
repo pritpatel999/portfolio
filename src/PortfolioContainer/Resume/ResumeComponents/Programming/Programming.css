@@ -1,0 +1,17 @@
+.progress-some {
+    background: red;
+    height: 20px;
+    width: 200px;
+}
+
+.progress-new {
+    background: black;
+    height: 20px;
+}
+
+.language {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    text-transform: capitalize;
+}
