@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                     </span>
                     <span className="Im-text-enthusiastic py-2">
                         
-                        <Typical
+                        {/* <Typical
                             loop={Infinity}
                             steps={[
                                 "Enthusiastic Dev😎",
@@ -25,7 +25,7 @@ export default function Home() {
                                 "PHP Developer💻",
                                 1000,
                             ]} 
-                        />
+                        /> */}
                     </span>
                     <span className="Im-text-subheading mx-4">
                         knack of building applications with front and back end
