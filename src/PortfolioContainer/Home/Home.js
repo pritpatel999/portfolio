@@ -36,8 +36,8 @@ export default function Home() {
                             Hire Me
                         </a>
                         <a
-                            href="prit_resume.pdf"
-                            download="Prit resume.pdf"
+                            href="Prit_Patel_Resume.pdf"
+                            download="prit_resume.pdf"
                         ><button className="btn-resume-me">Get Resume</button>
                             
                         </a>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="d-flex justify-content-center custom-div-outer-img">
                     <img
-                        src={require("../../assets/Home/prit_bg.jpg")}
+                        src={require("../../assets/Home/prit_imgage.jpeg")}
                         className="img-fluid custom-img"
                         alt="heroimage"
                     />

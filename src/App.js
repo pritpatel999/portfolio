@@ -2,7 +2,7 @@ import "./App.css";
 import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import Home from "./PortfolioContainer/Home/Home";
 import Resume from "./PortfolioContainer/Resume/Resume";
-import Testimonials from "./PortfolioContainer/Testimonial/Testimonials";
+// import Testimonials from "./PortfolioContainer/Testimonial/Testimonials";
 import ContactMe from "./PortfolioContainer/ContactMe/ContactMe";
 import { useState } from "react";
 
@@ -55,7 +55,7 @@ function App() {
                     >
                         Resume
                     </a>
-                    <a
+                    {/* <a
                         className="mx-4 nav-items"
                         href="#testimonial"
                         onClick={() => {
@@ -63,7 +63,7 @@ function App() {
                         }}
                     >
                         Testimonial
-                    </a>
+                    </a> */}
                     <a
                         className="mx-4 nav-items"
                         href="#contact-me"
@@ -87,7 +87,7 @@ function App() {
             </div>
             <AboutMe />
             <Resume />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <ContactMe />
         </div>
     );

@@ -17,16 +17,37 @@ export default function Work() {
                 <span className="description-position">
                     <ul>
                         <li>
-                            Have learned PHP frameworks like magento and laravel
-                            during training period.
+                            Worked with an agile team of fifteen on Magento (MVC) to handle various services like sales, create orders, edit orders, revenues for E-commerce Website.
                         </li>
                         <li>
-                            My responsibilities involved around maintaining and
-                            creating new magento modules.
+                            Hands on experience in Optimizing and Creating MySQL queries.
                         </li>
                         <li>
-                            Have worked on multiple reports and optimization of
-                            MySQL queries to Improve performance.
+                            Assisted in resolving multiple issues, leading to remarkable 40% overall improvement in website functionality and performance.
+                        </li>
+                        <li>
+                            Troubleshooted and resolved software defects and issues in a timely manner.
+                        </li>
+                        <li>
+                            Created multiple charts by integrating amChart API in the project.
+                        </li>
+                        <li>
+                            Spearheaded the design and implementation of a robust and scalable comment functionality within the backend.
+                        </li>
+                        <li>
+                            Performed multiple crons to auto perform tasks.
+                        </li>
+                        <li>
+                            Collaborated with cross-functional teams to gather project requirements and translate them into technical specifications.
+                        </li>
+                        <li>
+                            Demonstrated attention to detail in QA testing, identifying and resolving 100% of reported bugs and ensuring a flawless user experience.
+                        </li>
+                        <li>
+                            Leveraged strong management skills to oversee a cross-functional team, coordinating tasks and timelines, and ensuring efficient resource allocation.
+                        </li>
+                        <li>
+                            Utilized Microsoft Excel extensively to create and manage complex data queries and reports.
                         </li>
                     </ul>
                 </span>

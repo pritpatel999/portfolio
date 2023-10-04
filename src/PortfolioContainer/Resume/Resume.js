@@ -24,7 +24,7 @@ export default function Resume() {
     }
 
     return (
-        <div className="resume-outer-section d-flex flex-column my-5" id="resume">
+        <div className="resume-outer-section d-flex flex-column mt-5" id="resume">
             <span className="about-me-text">Resume</span>
             <span className="why-text-sub">My formal Bio Details</span>
             <div

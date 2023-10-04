@@ -27,6 +27,10 @@ export default function Programming() {
             text: "CSS",
             percentage: 80,
         },
+        {
+            text: "Python",
+            percentage: 80,
+        },
     ];
     return (
         <div>

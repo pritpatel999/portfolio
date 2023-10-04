@@ -3,10 +3,10 @@ import "./Project.css";
 
 export default function Projects() {
     return (
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column project-section">
             <div className="education-one my-4 justify-content-between d-flex flex-row">
                 <div className="d-flex flex-column new-one">
-                    <span className="university-name">
+                    <span className="project-name">
                         Online Dietitian (Final Year Project)
                     </span>
                     <span className="project-language">PHP, MYSQL</span>
@@ -17,14 +17,28 @@ export default function Projects() {
                         of this website to reduce the time and cost for expert
                         advices for diet.
                     </span>
-                    <a href="https://emedicio.000webhostapp.com/index.php">
+                    <a href="https://emedicio.000webhostapp.com/index.php" rel="noreferrer" target="_blank">
                         Online Dietitian
                     </a>
                 </div>
             </div>
             <div className="education-one my-4 justify-content-between d-flex flex-row">
                 <div className="d-flex flex-column new-one">
-                    <span className="university-name">
+                    <span className="project-name">
+                        Feedback App
+                    </span>
+                    <span className="project-language">React, Routers, JSON-server</span>
+                    <span className="project-info">
+                        Implemented Feedback web app using React in which user can rate the service and write reviews. Moreover, user can also edit reviews along with average and count on total number of reviews provided.
+                    </span>
+                    <a href="https://62abc29e297a5f5246c0e739--tubular-swan-51a6f1.netlify.app/" rel="noreferrer" target="_blank">
+                        Feedback App
+                    </a>
+                </div>
+            </div>
+            <div className="education-one my-4 justify-content-between d-flex flex-row">
+                <div className="d-flex flex-column new-one">
+                    <span className="project-name">
                         Online Parking Booking System (Third Year Project)
                     </span>
                     <span className="project-language">PHP, MYSQL</span>
@@ -37,7 +51,7 @@ export default function Projects() {
             </div>
             <div className="education-one my-4 justify-content-between d-flex flex-row">
                 <div className="d-flex flex-column new-one">
-                    <span className="university-name">Quotree</span>
+                    <span className="project-name">Quotree</span>
                     <span className="project-language">
                         Javascript, Firebase
                     </span>
@@ -47,12 +61,11 @@ export default function Projects() {
                         quote, add comment on particular quote, display comments
                         etc. For backend part I have used Firebase API.
                     </span>
-                    <a href="https://quoteree.netlify.app/">Quoteree</a>
                 </div>
             </div>
             <div className="education-one my-4 justify-content-between d-flex flex-row">
                 <div className="d-flex flex-column new-one">
-                    <span className="university-name">Pig Game</span>
+                    <span className="project-name">Pig Game</span>
                     <span className="project-language">
                         Javascript
                     </span>

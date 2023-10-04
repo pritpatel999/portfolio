@@ -11,7 +11,6 @@ export default function ContactMe() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(e);
         const templateparams = {
             from_name: name + " " + email,
             to_name: "pritpatel.social15@gmail.com",
@@ -24,6 +23,10 @@ export default function ContactMe() {
             "k8w15xTXBRE4uL8Yf"
         ).then((res) => {
             console.log(res);
+            setName("");
+            setEmail("");
+            setMessage("");
+
         }, (err) => {
             console.log(err);
         });
@@ -46,7 +49,7 @@ export default function ContactMe() {
 
     return (
         <div className="contact-me-part" id="contact-me">
-            <div className="relative-bg py-5">
+            <div className="relative-bg">
                 <div className="contact-inner-part d-flex flex-column">
                     <span className="about-me-text">Contact Me</span>
                     <span className="why-text-sub mb-5">
